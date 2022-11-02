@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
-{
+{ 
     [Header("Buildings")]
     public GameObject woodWall;
     public GameObject stoneWall;
@@ -134,225 +134,268 @@ public class Shoot : MonoBehaviour
                     }
                 }
             }
-
-            if (weaponSelected == 1 && building == false && canShoot == true)
-            {
-                range = 3;
-                dmg = 20;
-                bulletForce = 20;
-                fireRate = 0.2f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireBullet());
-                    shoot.pitch = Random.Range(0.5f, 1.3f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
-
-            if (weaponSelected == 2 && building == false && canShoot == true && unlockedRevolver)
-            {
-                range = 5;
-                dmg = 25;
-                bulletForce = 25;
-                fireRate = 0.5f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireBullet());
-                    shoot.pitch = Random.Range(0.4f, 1.1f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
-
-            if (weaponSelected == 3 && building == false && canShoot == true && unlockedUzi)
-            {
-                range = 2.5f;
-                dmg = 18;
-                bulletForce = 45;
-                fireRate = 0.05f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireBullet());
-                    shoot.pitch = Random.Range(0.8f, 1.4f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
-
-            if (weaponSelected == 4 && building == false && canShoot == true && unlockedShotgun)
-            {
-                range = 2f;
-                dmg = 20;
-                bulletForce = 25;
-                fireRate = 1f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireShotgun());
-                    shoot.pitch = Random.Range(0.8f, 1.4f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
-
-            if (weaponSelected == 5 && building == false && canShoot == true && unlockedAr)
-            {
-                range = 5f;
-                dmg = 25;
-                bulletForce = 40;
-                fireRate = 0.16f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireBullet());
-                    shoot.pitch = Random.Range(0.8f, 1.4f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
-
-            if (weaponSelected == 6 && building == false && canShoot == true && unlockedSniper)
-            {
-                range = 10f;
-                dmg = 50;
-                bulletForce = 80;
-                fireRate = 1.25f;
-                outLine.enabled = false;
-                if (plrScr.gold >= 1)
-                {
-                    StartCoroutine(FireBullet());
-                    shoot.pitch = Random.Range(0.8f, 1.4f);
-                    shoot.Play();
-                    StartCoroutine(FireRate());
-                }
-            }
         }
+
+            if (!building && Input.GetMouseButton(0))
+            {
+                if (!canShoot)
+                {
+                    return;
+                }
+                else
+                {
+                    if (weaponSelected == 1)
+                    {
+                        range = 3;
+                        dmg = 20;
+                        bulletForce = 20;
+                        fireRate = 0.2f;
+                        outLine.enabled = false;
+                        if (plrScr.gold >= 1)
+                        {
+                            StartCoroutine(FireBullet());
+                            shoot.pitch = Random.Range(0.5f, 1.3f);
+                            shoot.Play();
+                            StartCoroutine(FireRate());
+                        }
+                    }
+
+                    if (weaponSelected == 2)
+                    {
+                        range = 5;
+                        dmg = 25;
+                        bulletForce = 25;
+                        fireRate = 0.4f;
+                        outLine.enabled = false;
+                        if (plrScr.gold >= 1)
+                        {
+                            StartCoroutine(FireBullet());
+                            shoot.pitch = Random.Range(0.5f, 1.3f);
+                            shoot.Play();
+                            StartCoroutine(FireRate());
+                        }
+                    }
+
+                    if (weaponSelected == 2)
+                    {
+                        range = 5;
+                        dmg = 25;
+                        bulletForce = 25;
+                        fireRate = 0.4f;
+                        outLine.enabled = false;
+                        if (plrScr.gold >= 1)
+                        {
+                            StartCoroutine(FireBullet());
+                            shoot.pitch = Random.Range(0.3f, 0.9f);
+                            shoot.Play();
+                            StartCoroutine(FireRate());
+                        }
+                    }
+
+                if (weaponSelected == 3)
+                {
+                    range = 2.5f;
+                    dmg = 18;
+                    bulletForce = 45;
+                    fireRate = 0.05f;
+                    outLine.enabled = false;
+                    if (plrScr.gold >= 1)
+                    {
+                        StartCoroutine(FireBullet());
+                        shoot.pitch = Random.Range(0.8f, 1.5f);
+                        shoot.Play();
+                        StartCoroutine(FireRate());
+                    }
+                }
+
+                if (weaponSelected == 4)
+                {
+                    range = 2f;
+                    dmg = 20;
+                    bulletForce = 25;
+                    fireRate = 1f;
+                    outLine.enabled = false;
+                    if (plrScr.gold >= 5)
+                    {
+                        StartCoroutine(FireShotgun());
+                        shoot.pitch = Random.Range(0.8f, 1.5f);
+                        shoot.Play();
+                        StartCoroutine(FireRate());
+                    }
+                }
+
+                if (weaponSelected == 5)
+                {
+                    range = 5f;
+                    dmg = 25;
+                    bulletForce = 40;
+                    fireRate = 0.16f;
+                    outLine.enabled = false;
+                    if (plrScr.gold >= 5)
+                    {
+                        StartCoroutine(FireShotgun());
+                        shoot.pitch = Random.Range(0.2f, 0.8f);
+                        shoot.Play();
+                        StartCoroutine(FireRate());
+                    }
+                }
+
+                if (weaponSelected == 5)
+                {
+                    range = 5f;
+                    dmg = 25;
+                    bulletForce = 40;
+                    fireRate = 0.16f;
+                    outLine.enabled = false;
+                    if (plrScr.gold >= 1)
+                    {
+                        StartCoroutine(FireShotgun());
+                        shoot.pitch = Random.Range(0.2f, 0.8f);
+                        shoot.Play();
+                        StartCoroutine(FireRate());
+                    }
+                }
+
+                if (weaponSelected == 6)
+                {
+                    range = 10f;
+                    dmg = 50;
+                    bulletForce = 80;
+                    fireRate = 1.25f;
+                    outLine.enabled = false;
+                    if (plrScr.gold >= 1)
+                    {
+                        StartCoroutine(FireBullet());
+                        shoot.pitch = Random.Range(0.8f, 1.4f);
+                        shoot.Play();
+                        StartCoroutine(FireRate());
+                    }
+                }
+            }
+            }
         
-        if (plrScr.totalKills >= 50)
-        {
-            unlockedRevolver = true;
-            lastGun.text = "Last Gun Unlock: Revolver";
-        }
-
-        if (plrScr.totalKills >= 75)
-        {
-            unlockedUzi = true;
-            lastGun.text = "Last Gun Unlock: UZI";
-        }
-
-        if (plrScr.totalKills >= 125)
-        {
-            unlockedShotgun = true;
-            lastGun.text = "Last Gun Unlock: Shotgun";
-        }
-
-        if (plrScr.totalKills >= 180)
-        {
-            unlockedAr = true;
-            lastGun.text = "Last Gun Unlock: Assault Rifle";
-        }
-
-        if (plrScr.totalKills >= 225)
-        {
-            unlockedSniper = true;
-            lastGun.text = "Last Gun Unlock: Sniper";
-        }
-
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            if (!building)
+            if (plrScr.totalKills >= 15)
             {
-                building = true;
-                buildingMenu.enabled = true;
-            } else if (building)
+                unlockedRevolver = true;
+                lastGun.text = "Last Gun Unlock: Revolver";
+            }
+
+            if (plrScr.totalKills >= 40)
             {
-                building = false;
-                buildingMenu.enabled = false;
+                unlockedUzi = true;
+                lastGun.text = "Last Gun Unlock: UZI";
+            }
+
+            if (plrScr.totalKills >= 60)
+            {
+                unlockedShotgun = true;
+                lastGun.text = "Last Gun Unlock: Shotgun";
+            }
+
+            if (plrScr.totalKills >= 75)
+            {
+                unlockedAr = true;
+                lastGun.text = "Last Gun Unlock: Assault Rifle";
+            }
+
+            if (plrScr.totalKills >= 90)
+            {
+                unlockedSniper = true;
+                lastGun.text = "Last Gun Unlock: Sniper";
+            }
+
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                if (!building)
+                {
+                    building = true;
+                    buildingMenu.enabled = true;
+                }
+                else if (building)
+                {
+                    building = false;
+                    buildingMenu.enabled = false;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha1) && building == true)
+            {
+                buildSelected = 1;
+                selectedText.text = "Wood wall selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2) && building == true)
+            {
+                buildSelected = 2;
+                selectedText.text = "Stone wall selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha3) && building == true)
+            {
+                buildSelected = 3;
+                selectedText.text = "Gold wall selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha4) && building == true)
+            {
+                buildSelected = 4;
+                selectedText.text = "Melee hitman selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha5) && building == true)
+            {
+                buildSelected = 5;
+                selectedText.text = "Speedy hitman selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha6) && building == true)
+            {
+                buildSelected = 6;
+                selectedText.text = "Stronk hitman selected";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha1) && building == false)
+            {
+                weaponSelected = 1;
+                currentWeaponImg.sprite = pistolSprite;
+                currentWeapon.text = "Pistol";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2) && building == false && unlockedRevolver)
+            {
+                weaponSelected = 2;
+                currentWeaponImg.sprite = revolverSprite;
+                currentWeapon.text = "Revolver";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha3) && building == false && unlockedUzi)
+            {
+                buildSelected = 3;
+                currentWeaponImg.sprite = uziSprite;
+                currentWeapon.text = "UZI";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha4) && building == false && unlockedShotgun)
+            {
+                weaponSelected = 4;
+                currentWeaponImg.sprite = shotgunSprite;
+                currentWeapon.text = "Shotgun";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha5) && building == false && unlockedAr)
+            {
+                weaponSelected = 5;
+                currentWeaponImg.sprite = arSprite;
+                currentWeapon.text = "Assault Rifle";
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha6) && building == false && unlockedSniper)
+            {
+                weaponSelected = 6;
+                currentWeaponImg.sprite = sniperSprite;
+                currentWeapon.text = "Sniper";
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1) && building == true)
-        {
-            buildSelected = 1;
-            selectedText.text = "Wood wall selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha2) && building == true)
-        {
-            buildSelected = 2;
-            selectedText.text = "Stone wall selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha3) && building == true)
-        {
-            buildSelected = 3;
-            selectedText.text = "Gold wall selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha4) && building == true)
-        {
-            buildSelected = 4;
-            selectedText.text = "Melee hitman selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha5) && building == true)
-        {
-            buildSelected = 5;
-            selectedText.text = "Speedy hitman selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha6) && building == true)
-        {
-            buildSelected = 6;
-            selectedText.text = "Stronk hitman selected";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1) && building == false)
-        {
-            weaponSelected = 1;
-            currentWeaponImg.sprite = pistolSprite;
-            currentWeapon.text = "Pistol";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha2) && building == false && unlockedRevolver)
-        {
-            weaponSelected = 2;
-            currentWeaponImg.sprite = revolverSprite;
-            currentWeapon.text = "Revolver";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha3) && building == false && unlockedUzi)
-        {
-            buildSelected = 3;
-            currentWeaponImg.sprite = uziSprite;
-            currentWeapon.text = "UZI";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha4) && building == false && unlockedShotgun)
-        {
-            weaponSelected = 4;
-            currentWeaponImg.sprite = shotgunSprite;
-            currentWeapon.text = "Shotgun";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha5) && building == false && unlockedAr)
-        {
-            weaponSelected = 5;
-            currentWeaponImg.sprite = arSprite;
-            currentWeapon.text = "Assault Rifle";
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha6) && building == false && unlockedSniper)
-        {
-            weaponSelected = 6;
-            currentWeaponImg.sprite = sniperSprite;
-            currentWeapon.text = "Sniper";
-        }
-    }
 
     public IEnumerator FireRate()
     {

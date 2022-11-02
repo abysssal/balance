@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2774357822771524475}
   - component: {fileID: 5582494586649123059}
   - component: {fileID: 7506226453681487484}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: LightningEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}

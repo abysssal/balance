@@ -877,7 +877,7 @@ MonoBehaviour:
   unlockedShotgun: 0
   unlockedAr: 0
   unlockedSniper: 0
-  canShoot: 0
+  canShoot: 1
 --- !u!1 &1241894739026340388
 GameObject:
   m_ObjectHideFlags: 0
