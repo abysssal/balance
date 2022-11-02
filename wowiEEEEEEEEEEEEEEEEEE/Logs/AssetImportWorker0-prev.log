@@ -11,19 +11,20 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/rylan/Created Video Games/wowiEEEEEEEEEEEEEEEEEE
+C:/Users/rylan/OneDrive/Documents/proJects/balance/wowiEEEEEEEEEEEEEEEEEE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56367
-Successfully changed project path to: C:/Users/rylan/Created Video Games/wowiEEEEEEEEEEEEEEEEEE
-C:/Users/rylan/Created Video Games/wowiEEEEEEEEEEEEEEEEEE
+55702
+Successfully changed project path to: C:/Users/rylan/OneDrive/Documents/proJects/balance/wowiEEEEEEEEEEEEEEEEEE
+C:/Users/rylan/OneDrive/Documents/proJects/balance/wowiEEEEEEEEEEEEEEEEEE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 586.09 ms, found 3 plugins.
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 695.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/rylan/Created Video Games/wowiEEEEEEEEEEEEEEEEEE/Assets
+[Subsystems] Discovering subsystems at path C:/Users/rylan/OneDrive/Documents/proJects/balance/wowiEEEEEEEEEEEEEEEEEE/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,92 +36,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007522 seconds.
+Registered in 0.006209 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.22 ms, found 3 plugins.
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 81.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  1.141 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (261ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1095ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (152ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (489ms)
-			SetupLoadedEditorAssemblies (230ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009268 seconds.
+Registered in 0.020303 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.84 ms, found 3 plugins.
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 172.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.515 seconds
+- Completed reload, in  1.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1518ms)
-		BeginReloadAssembly (197ms)
+	ReloadAssembly (1972ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (247ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (453ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1558ms)
+			LoadAssemblies (399ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (648ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (173ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.5 MB.
-System memory in use after: 145.5 MB.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 145.8 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3796.
-Total: 10.914900 ms (FindLiveObjects: 1.146500 ms CreateObjectMapping: 0.402200 ms MarkObjects: 8.893700 ms  DeleteObjects: 0.470200 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3797.
+Total: 12.551900 ms (FindLiveObjects: 0.983700 ms CreateObjectMapping: 0.171600 ms MarkObjects: 11.035300 ms  DeleteObjects: 0.358600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,231 +139,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Discord/New Folder
-  artifactKey: Guid(8e3b81fe5d100d747b8019e5122852b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/New Folder using Guid(8e3b81fe5d100d747b8019e5122852b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2067ead2fd53ee30139a370dfcacf7') in 0.019030 seconds 
+  path: Assets/Prefabs/MeleeHitman 1.prefab
+  artifactKey: Guid(9dee4cb3097595a418f4b36f5a009101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MeleeHitman 1.prefab using Guid(9dee4cb3097595a418f4b36f5a009101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b146e610cedc8ce81837de1064532db') in 0.560930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.797229 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(be77943c8e45be84f84f7773499ee036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(be77943c8e45be84f84f7773499ee036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9b5f41515637b42bea0f2fdeb0330d') in 0.009593 seconds 
+  Time since last request: 0.002340 seconds.
+  path: Assets/Prefabs/LightningTankEnemy 1.prefab
+  artifactKey: Guid(874bfa55ff2214f4db3bd9a0ec285e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LightningTankEnemy 1.prefab using Guid(874bfa55ff2214f4db3bd9a0ec285e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d6d890ab9e2751e4b6124043028e75') in 0.056866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.334786 seconds.
-  path: Assets/Plugins/DiscordGameSDK
-  artifactKey: Guid(7691f6b414418514d8c2c7b526e1040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/DiscordGameSDK using Guid(7691f6b414418514d8c2c7b526e1040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ff9d38de1d99a916aee823d9ccb422') in 0.012300 seconds 
+  Time since last request: 0.000674 seconds.
+  path: Assets/Prefabs/SpeedyEnemy 1.prefab
+  artifactKey: Guid(0e3e92f632575ec4cacb2e26dd30897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpeedyEnemy 1.prefab using Guid(0e3e92f632575ec4cacb2e26dd30897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd136edc866b43c033565a014862c06f') in 0.064936 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.852769 seconds.
-  path: Assets/Scripts/Discord/aarch64
-  artifactKey: Guid(b13610812cca3564e8f330930908d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/aarch64 using Guid(b13610812cca3564e8f330930908d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058a1e2d30b5a0b2df285adccd400220') in 0.012548 seconds 
+  Time since last request: 0.000600 seconds.
+  path: Assets/Prefabs/LightningEnemy 1.prefab
+  artifactKey: Guid(ccfe959cde039e74c8f2558afa410bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LightningEnemy 1.prefab using Guid(ccfe959cde039e74c8f2558afa410bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606f4e818e60d9a4899c428acd939c1b') in 0.067474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.885760 seconds.
-  path: Assets/Scripts/Discord/x86_64
-  artifactKey: Guid(578846a2016bf264a8d0dda1bd1373f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/x86_64 using Guid(578846a2016bf264a8d0dda1bd1373f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b089784e78a6192cc270501dc50ae17d') in 0.008001 seconds 
+  Time since last request: 56.800389 seconds.
+  path: Assets/Prefabs/PinkyEnemy.prefab
+  artifactKey: Guid(5c654929402a9c34aa194305b9d446c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkyEnemy.prefab using Guid(5c654929402a9c34aa194305b9d446c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50782b64492101b360229c0dfd344aa5') in 0.350110 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.749857 seconds.
-  path: Assets/Scripts/Discord/StoreManager.cs
-  artifactKey: Guid(d553755b590cc9b4298c3f811d1d3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/StoreManager.cs using Guid(d553755b590cc9b4298c3f811d1d3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3fc4e7de4443c12e9239b5d13e1cb8') in 0.103442 seconds 
+  Time since last request: 0.000736 seconds.
+  path: Assets/Prefabs/SuicideEnemy.prefab
+  artifactKey: Guid(af7e3f86bc5f10249adf5fd5a7659562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuicideEnemy.prefab using Guid(af7e3f86bc5f10249adf5fd5a7659562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1cbb5a0b7d9e6d74a7d6b3ab783de7') in 0.062854 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.196094 seconds.
-  path: Assets/Scripts/Discord/StorageManager.cs
-  artifactKey: Guid(f9c4df7a6538f6b4fb68f364d21f2cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/StorageManager.cs using Guid(f9c4df7a6538f6b4fb68f364d21f2cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fa7734086d1736d94b2ace9dc954d8') in 0.008762 seconds 
+  Time since last request: 0.000360 seconds.
+  path: Assets/Prefabs/StronkHitman.prefab
+  artifactKey: Guid(13c33ef244d901641b9ae19dfa177f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StronkHitman.prefab using Guid(13c33ef244d901641b9ae19dfa177f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b53f51e6506224f4e83a8bd06a41aee') in 0.051626 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.847764 seconds.
-  path: Assets/Scripts/Discord/ImageManager.cs
-  artifactKey: Guid(76139d89aedeac345aad91dc9d48942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/ImageManager.cs using Guid(76139d89aedeac345aad91dc9d48942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc953323f61c15173b92d1abd644619') in 0.009938 seconds 
+  Time since last request: 0.000439 seconds.
+  path: Assets/Prefabs/TankEnemy.prefab
+  artifactKey: Guid(58945814cab35d147a88771197e0ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TankEnemy.prefab using Guid(58945814cab35d147a88771197e0ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5604ed0410aa98315eccbe28f5e261') in 0.034662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.042669 seconds.
-  path: Assets/Scripts/Discord/LobbyManager1.cs
-  artifactKey: Guid(ee12c21969033b040a3254ea8c274ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/LobbyManager1.cs using Guid(ee12c21969033b040a3254ea8c274ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2dcc228172533e62673f372a156a07') in 0.007502 seconds 
+  Time since last request: 0.000460 seconds.
+  path: Assets/Prefabs/SpeedyEnemy.prefab
+  artifactKey: Guid(c5f54755f74332a409b0cad67f0e5c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpeedyEnemy.prefab using Guid(c5f54755f74332a409b0cad67f0e5c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573be77c54d6a92c690678d0a1e37e36') in 0.030304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.892429 seconds.
-  path: Assets/Scripts/Discord/StoreManager1.cs
-  artifactKey: Guid(cf6e8b69d4aca7943b5136e1f6aa404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Discord/StoreManager1.cs using Guid(cf6e8b69d4aca7943b5136e1f6aa404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26176b7e31de6fefe747aaa30defb4d6') in 0.015077 seconds 
+  Time since last request: 0.000880 seconds.
+  path: Assets/Prefabs/SpeedyHitman.prefab
+  artifactKey: Guid(95e51661b9883e9418efed0c7629ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpeedyHitman.prefab using Guid(95e51661b9883e9418efed0c7629ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e144ff79a505f719ee8b41187881753c') in 0.033817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.757083 seconds.
+  path: Assets/Prefabs/LightningEnemy.prefab
+  artifactKey: Guid(721c22dbb41cd5e42a3c118f5705bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LightningEnemy.prefab using Guid(721c22dbb41cd5e42a3c118f5705bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4421fabca1e963c8ec54fbe7e20af') in 0.269320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Prefabs/NormalEnemy.prefab
+  artifactKey: Guid(5498624b6264cf245a45930b96bd7ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NormalEnemy.prefab using Guid(5498624b6264cf245a45930b96bd7ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513e50dc421e12f486e7197ece7f5183') in 0.028450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Prefabs/LightningTankEnemy.prefab
+  artifactKey: Guid(2adf0633330c22e43b3b2a43e8da3c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LightningTankEnemy.prefab using Guid(2adf0633330c22e43b3b2a43e8da3c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d36ba252495da4ee33b30cd66678b1') in 0.049094 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016441 seconds.
+Registered in 0.020209 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.474 seconds
+- Completed reload, in 13.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3487ms)
-		BeginReloadAssembly (1983ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (84ms)
+	ReloadAssembly (13650ms)
+		BeginReloadAssembly (4431ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (2919ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (416ms)
-		EndReloadAssembly (1302ms)
-			LoadAssemblies (1519ms)
+			CreateAndSetChildDomain (589ms)
+		EndReloadAssembly (7145ms)
+			LoadAssemblies (5362ms)
 			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (434ms)
+			SetupTypeCache (956ms)
+			ReleaseScriptCaches (74ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (610ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (6ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
 Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.8 MB.
-System memory in use after: 138.9 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3798.
-Total: 14.370900 ms (FindLiveObjects: 1.517300 ms CreateObjectMapping: 0.187600 ms MarkObjects: 11.468600 ms  DeleteObjects: 1.194400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.028158 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.490 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2502ms)
-		BeginReloadAssembly (842ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (120ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (427ms)
-		EndReloadAssembly (1547ms)
-			LoadAssemblies (324ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (577ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (442ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 138.9 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 10.445200 ms (FindLiveObjects: 0.750300 ms CreateObjectMapping: 0.206200 ms MarkObjects: 8.679900 ms  DeleteObjects: 0.804800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020686 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.598 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4612ms)
-		BeginReloadAssembly (744ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (96ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (358ms)
-		EndReloadAssembly (3782ms)
-			LoadAssemblies (288ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1896ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (1189ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (4ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 139.0 MB.
+System memory in use before: 144.0 MB.
+System memory in use after: 144.1 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3803.
-Total: 53.752400 ms (FindLiveObjects: 1.482500 ms CreateObjectMapping: 0.922000 ms MarkObjects: 49.479700 ms  DeleteObjects: 1.864600 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 16.760500 ms (FindLiveObjects: 1.318000 ms CreateObjectMapping: 0.351000 ms MarkObjects: 14.411400 ms  DeleteObjects: 0.677600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -373,53 +275,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 348.792386 seconds.
+  path: Assets/Audio/buildGoBoom.wav
+  artifactKey: Guid(875fe29989d8b6a4488fef81ddf4c8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/buildGoBoom.wav using Guid(875fe29989d8b6a4488fef81ddf4c8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c76921c85b4808c0365922313b759f3') in 0.825807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.565355 seconds.
+  path: Assets/Prefabs/ImposterEnemy.prefab
+  artifactKey: Guid(f97c8ce444eed3d4ca71129366984d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ImposterEnemy.prefab using Guid(f97c8ce444eed3d4ca71129366984d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d135b63a2129e14c9314ddd2a1f834') in 0.282272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.711387 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(bdc115708e6a6a546b7c2eba3ce15843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(bdc115708e6a6a546b7c2eba3ce15843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580f5e39a4e8f27d2db502feaaf944ef') in 0.665892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1851.663560 seconds.
+  path: Assets/Scripts/Wall.cs
+  artifactKey: Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Wall.cs using Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0173872e237e8799197941cee212ca') in 0.243795 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.021809 seconds.
+Registered in 0.046357 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 4.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 16.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.243 seconds
+- Completed reload, in  4.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2256ms)
-		BeginReloadAssembly (914ms)
+	ReloadAssembly (4727ms)
+		BeginReloadAssembly (2456ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (105ms)
+			DisableScriptedObjects (404ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (2ms)
-			CreateAndSetChildDomain (525ms)
-		EndReloadAssembly (1238ms)
-			LoadAssemblies (287ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (476ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (363ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (1398ms)
+		EndReloadAssembly (2026ms)
+			LoadAssemblies (529ms)
+			RebuildTransferFunctionScriptingTraits (5ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (11ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (703ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (17ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
 Platform modules already initialized, skipping
 Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 139.0 MB.
+System memory in use before: 144.2 MB.
+System memory in use after: 144.3 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3805.
-Total: 14.415600 ms (FindLiveObjects: 0.997600 ms CreateObjectMapping: 0.236500 ms MarkObjects: 12.759700 ms  DeleteObjects: 0.418400 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3884.
+Total: 21.727400 ms (FindLiveObjects: 1.754600 ms CreateObjectMapping: 1.742000 ms MarkObjects: 17.801700 ms  DeleteObjects: 0.426600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -432,4 +358,201 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 777.264588 seconds.
+  path: Assets/Scripts/Wall.cs
+  artifactKey: Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Wall.cs using Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc37461b6621260e0c46ffbf28fbe69') in 0.041023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.924887 seconds.
+  path: Assets/Scripts/Wall.cs
+  artifactKey: Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Wall.cs using Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ab23895898e7f84fe131c25b48cfb6') in 0.043757 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 14.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10813ms)
+		BeginReloadAssembly (1522ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (175ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (846ms)
+		EndReloadAssembly (2599ms)
+			LoadAssemblies (811ms)
+			RebuildTransferFunctionScriptingTraits (8ms)
+			SetupTypeCache (766ms)
+			ReleaseScriptCaches (44ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 56.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 174.328000 ms (FindLiveObjects: 37.297400 ms CreateObjectMapping: 68.528900 ms MarkObjects: 64.099400 ms  DeleteObjects: 4.383600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.716797 seconds.
+  path: Assets/Scripts/Wall.cs
+  artifactKey: Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Wall.cs using Guid(b368ece651f98e247a4d948160333c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cf8199599c7ac893a24289f67f3bd0') in 9.559593 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 37.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15781ms)
+		BeginReloadAssembly (7188ms)
+			ExecutionOrderSort (4ms)
+			DisableScriptedObjects (1318ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (1739ms)
+		EndReloadAssembly (5113ms)
+			LoadAssemblies (1447ms)
+			RebuildTransferFunctionScriptingTraits (6ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (274ms)
+			RebuildScriptCaches (642ms)
+			SetupLoadedEditorAssemblies (2654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (832ms)
+				ProcessInitializeOnLoadAttributes (1723ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 62.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3888.
+Total: 454.740000 ms (FindLiveObjects: 7.513100 ms CreateObjectMapping: 1.522700 ms MarkObjects: 426.438400 ms  DeleteObjects: 19.029800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.282063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4212ms)
+		BeginReloadAssembly (1800ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (151ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (1115ms)
+		EndReloadAssembly (2118ms)
+			LoadAssemblies (578ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (26ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'discord_game_sdk' (found at 'Assets/Plugins/x86/discord_game_sdk.dll' and 'Assets/Plugins/x86_64/discord_game_sdk.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 29.347300 ms (FindLiveObjects: 2.632100 ms CreateObjectMapping: 1.605800 ms MarkObjects: 21.433100 ms  DeleteObjects: 3.672900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

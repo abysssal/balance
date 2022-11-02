@@ -5494,6 +5494,14 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 6544160663227024990, guid: bdc115708e6a6a546b7c2eba3ce15843, type: 3}
+      propertyPath: MaxDistance
+      value: 21.378778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6544160663227024990, guid: bdc115708e6a6a546b7c2eba3ce15843, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6661356353541946739, guid: bdc115708e6a6a546b7c2eba3ce15843, type: 3}
       propertyPath: m_Icon
       value: 
