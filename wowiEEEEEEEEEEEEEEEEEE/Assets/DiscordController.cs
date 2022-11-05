@@ -15,10 +15,6 @@ public class DiscordController : MonoBehaviour
         {
             State = "Shooting circles to defend a circle",
             Details = "haha gun go pew pew",
-            Timestamps =
-            {
-                Start = 1667344362
-            },
             Assets =
             {
                 LargeImage = "balanceiconthing"

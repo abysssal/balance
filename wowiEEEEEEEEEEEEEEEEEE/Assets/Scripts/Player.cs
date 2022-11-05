@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public Text coinCount;
     public Text deathText;
     public Slider hpBar;
+    public Slider xpBar;
     public Orb orbScr;
 
     [Header("Integers and floats")]
@@ -21,6 +22,9 @@ public class Player : MonoBehaviour
     public int kills;
     public int totalKills;
     public int gold;
+    public int XP;
+    public int maxXP;
+    public int level;
     public int HP;
     public int maxHP;
 
@@ -36,6 +40,7 @@ public class Player : MonoBehaviour
         fpsCounter = GameObject.Find("FPSCount").GetComponent<Text>();
         deathText = GameObject.Find("DiedText").GetComponent<Text>();
         hpBar = GameObject.Find("plrHPBar").GetComponent<Slider>();
+        xpBar = GameObject.Find("XPBar").GetComponent<Slider>();
         InvokeRepeating("LogFPS", 1, 1);
     }
 
